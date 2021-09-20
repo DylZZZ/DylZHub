@@ -30,11 +30,6 @@ Scripts:NewButton("Admin", "This will inject an admin script!", function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 	
-	
-Scripts:NewButton("Fly/Noclip", "This will inject a fly/noclip gui!", function()
-		loadstring(game:HttpGet(('https://pastebin.com/raw/DW6ZRWr3'),true))()
-	end)
-
 Player:NewTextBox("TP", "Tp to the player", function(txt)
 	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 	local pl2 = txt
